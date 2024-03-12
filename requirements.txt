@@ -34,7 +34,7 @@ farmhashpy==0.4.0
 grpcio~=1.46
 jaxlib==0.3.14
 jax==0.3.14
-numpy~=1.21
+numpy~=1.22.2
 portpicker~=1.5
 semantic-version~=2.6
 tensorflow-compression~=2.10.0
@@ -42,5 +42,11 @@ tensorflow-model-optimization==0.7.3
 tensorflow-privacy==0.8.6
 # The version of this dependency should match the version in
 # https://github.com/tensorflow/federated/blob/main/WORKSPACE.
-tensorflow~=2.10.0
+tensorflow~=2.11.1
 tqdm~=4.64
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+mpmath>=1.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
